@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * _islower - short description, single line
+ * @c: contains value to be compared
  *
- * Return : 0 or 1
+ * Return : Always 0.
  */
 
 int _islower(int c)
