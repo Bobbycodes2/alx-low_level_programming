@@ -1,13 +1,22 @@
 #include "main.h"
 
 /**
- * _islower - short description, single line
+ * _islower - Short description, single line
  * @c: contains value to be compared
- *
- * Return : Always 0.
+ * Return: Always 0.
  */
-
 int _islower(int c)
+
 {
-	return (c >= 97 && c <= 122);
+
+	if (c > 'a' && c < 'z')
+	{
+		return (1);
+	}
+
+	else
+	{
+		return (0);
+	}
+
 }
