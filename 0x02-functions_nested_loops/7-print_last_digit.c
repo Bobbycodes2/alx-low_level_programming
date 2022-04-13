@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *  print_last_digit - last digit
+ * main - check the code
  *
- *@n: The int to print
+ * @n: The int to print
  * Return: Always 0.
  */
 
