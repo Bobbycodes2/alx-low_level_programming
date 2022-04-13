@@ -3,7 +3,7 @@
 /**
  * main - check the code
  *
- * @n: The int to print
+ * @n: The int to print last digit
  * Return: Always 0.
  */
 
