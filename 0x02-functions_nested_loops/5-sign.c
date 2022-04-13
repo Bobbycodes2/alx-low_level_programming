@@ -3,7 +3,7 @@
 /**
  * print_sign - check numbers
  * @n : number to check
- * Return : 0 or 1
+ * Return : Always 0. 
  */
 
 int print_sign(int n)
@@ -25,5 +25,5 @@ int print_sign(int n)
 		test = -1;
 		_putchar('-');
 	}
-return(test);
+return (test);
 }
