@@ -5,7 +5,7 @@
  * Return: Length of occurrence.
  */
 unsigned int _strspn(char *s, char *accept)
-{ 
+{
 	unsigned int c = 0;
 	char *t = accept;
 
@@ -23,4 +23,3 @@ unsigned int _strspn(char *s, char *accept)
 	}
 	return (c);
 }
-
